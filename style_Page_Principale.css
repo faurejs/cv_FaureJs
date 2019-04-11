@@ -1,13 +1,26 @@
 /* Page Style de la page Principale du web cv */ 
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: url('font/AvenirLTStd-Roman.woff') format('woff');
+}
+
+
+
 * {box-sizing:border-box}
+
 body {
 	background-color: #E1E6FA ; 
+	font-family: 'Avenir LT Std 55 Roman', Arial, sans serif; 
 }
+
 #header 
 {
-	background-image: url(header.jpg);
+	background: url(headerV3.jpg) no-repeat ;
 	display: flex; 
 	border-style: solid;
+	background-size:100%;
 }
 
 
