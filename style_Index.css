@@ -1,0 +1,32 @@
+/* Page style de l'index */ 
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: url('font/AvenirLTStd-Roman.woff') format('woff');
+}
+
+body {
+	background-color: #2A4979 ; 
+	font-family: 'Avenir LT Std 55 Roman', Arial, sans serif; 
+}
+
+h1{
+	font-size : 2.2em;
+	font-weight: bold;
+	margin:auto;
+	text-align : center;
+	color : white;
+}
+
+#compteur {
+	float : right;
+}
+
+#pdf {
+	display : flex;
+	justify-content: center;
+}
+body header {
+    height:150px;
+    }

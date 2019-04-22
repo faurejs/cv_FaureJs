@@ -1,3 +1,2 @@
-# cv_FaureJs
-Repository du futur web cv 
-Modification depuis GitHub pour cours openclassrooms
+# Site personnel en cours de création ! 
+Mise en ligne prévue début mai ! 
