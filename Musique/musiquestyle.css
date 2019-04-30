@@ -1,0 +1,135 @@
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: url('../font/AvenirLTStd-Roman.woff') format('woff');
+}
+
+h1 {
+	font-size:2.2em;
+	font-weight: bold ; 
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold ;
+}
+
+h3 {
+	font-size : 1.8em;
+	font-weight: bold; 
+	color : white;
+}
+
+ul {
+	font-size: 1.7em ; 
+	list-style-type: none ; 
+	color: white ; 
+}
+
+.menu 
+ {
+	text-decoration-line : none ; 
+	color : white ;
+}
+
+.site {
+	background-color: white;
+	display : grid;
+	grid-template-columns: 2fr 8fr ; 
+	grid-gap: 10px ; 
+	grid-template-areas: 
+	"titre titre"
+	"titrePage titrePage"
+	"sidebar body" ; 
+	font-family: 'Avenir LT Std 55 Roman', Arial, sans serif; 
+
+}
+.titre{
+	grid-area: titre ; 
+	justify-self : center;
+}
+
+.titrePage {
+	grid-area: titrePage ;
+	background-color: #436175 ; 
+	border : solid 1px black;
+	display:flex;
+	justify-content: center ; 
+}
+.sidebar {
+	grid-area: sidebar ; 
+	background-color: #5A81B8 ;
+	border : solid 1px black;
+	display:flex;
+	justify-content: center ;
+
+}
+
+.body{
+	grid-area: body ; 
+	background-color: #2A4979 ; 
+	border:solid 1px black;
+	display : flex ; 
+	flex-direction : column;
+}
+
+.texteIntro {
+	background: white ; 
+	color : black ; 
+	margin : 10px ; 
+	padding: 5px ; 
+	font-size: 1em ;
+}
+
+.musiqueMoment {
+	display : grid ;
+	grid-template-columns: 3fr 7fr; 
+	grid-template-areas: 
+	"titreMoment titreMoment"
+	"sf yt"
+}
+
+.titreMoment {
+	grid-area: titreMoment ; 
+	justify-self : center ;
+}
+
+.sf {
+	grid-area: sf ; 
+	justify-self : center ;
+}
+
+.yt {
+	grid-area : yt;
+	justify-self : center ;
+}
+
+.influences {
+	display : grid ;
+	grid-template-columns: 2fr 2fr 2fr 2fr ; 
+	grid-template-areas: 
+	"titreInfluences titreInfluences titreInfluences titreInfluences"
+	"hz jw hw rd"
+	"be bo stromae wk"
+	"gorillaz soad muse sum";
+	justify-items : center ;
+}
+
+.vignette {
+	width: 200px;
+	height: 200px; 
+}
+
+.legende {
+	display:flex;
+	font-weight: normal ;
+	font-size : 1.2em;
+	justify-content: center ;
+	color : white;
+}
+
+.titreInfluences {
+	grid-area: titreInfluences ; 
+	justify-self : center ;
+}

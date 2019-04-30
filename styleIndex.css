@@ -1,0 +1,71 @@
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: url('font/AvenirLTStd-Roman.woff') format('woff');
+}
+
+h1 {
+	font-size:2.2em;
+	font-weight: bold ; 
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold ;
+}
+
+ul {
+	font-size: 1.7em ; 
+	list-style-type: none ; 
+	color: white ; 
+}
+
+.menu 
+ {
+	text-decoration-line : none ; 
+	color : white ;
+}
+
+.site {
+	background-color: white;
+	display : grid;
+	grid-template-columns: 2fr 8fr ; 
+	grid-gap: 10px ; 
+	grid-template-areas: 
+	"titre titre"
+	"titrePage titrePage"
+	"sidebar body" ; 
+	font-family: 'Avenir LT Std 55 Roman', Arial, sans serif; 
+
+}
+.titre{
+	grid-area: titre ; 
+	justify-self : center;
+}
+
+.titrePage {
+	grid-area: titrePage ;
+	background-color: #436175 ; 
+	border : solid 1px black;
+	display:flex;
+	justify-content: center ; 
+}
+.sidebar {
+	grid-area: sidebar ; 
+	background-color: #5A81B8 ;
+	border : solid 1px black;
+	display:flex;
+	justify-content: center ;
+
+}
+
+.body{
+	grid-area: body ; 
+	background-color: #2A4979 ; 
+	border:solid 1px black;
+	display : flex;
+	justify-content: center; 
+	padding-top: 20px ;
+	padding-bottom: 10px ;
+}
